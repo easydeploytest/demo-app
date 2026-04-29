@@ -414,4 +414,3 @@ Minimal implementations:
 - Bun/Elysia: `.get('/healthz', () => ({ status: 'ok' }))`
 - Python/FastAPI: `@app.get('/healthz')\ndef health(): return {'status': 'ok'}`
 - Go: `mux.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) { w.Write([]byte(\`{"status":"ok"}\`)) })`
-# trigger redeploy Wed Apr 29 18:25:53 CEST 2026
